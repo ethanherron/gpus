@@ -5,12 +5,9 @@
 
 // kernel for relu
 __global__ void relu(float* A, int n) {
-    int row = blockIdx.y * blockDim.y + threadIdx.y;
-    int col = blockIdx.x * blockDim.x + threadIdx.x;
-
-    if (row < n && col < n) {
-        int idx = row * n + col;
-        A[idx] = fmaxf(0.0f, A[idx]);
+    int i = blockIdx.x * blockDim.x + threadIdx.x;
+    if (i < n * n) {
+        A[i] = fmaxf(0.0f, A[i]);
     }
 }
 
