@@ -2,19 +2,19 @@
 
 ## Contents
 
-- [X] 1. Introduction
+- [x] 1. Introduction
 #### Part 1: Fundamental Concepts
-- [X] 2. Heterogeneous Data Parallel Computing
-- [X] 3. Multidimensional Grids and Data
-- [X] 4. GPU Architecture and Scheduling
-- [X] 5. Memory Architecture and Data Locality
-- [X] 6. Performance Considerations
+- [x] 2. Heterogeneous Data Parallel Computing
+- [x] 3. Multidimensional Grids and Data
+- [x] 4. GPU Architecture and Scheduling
+- [x] 5. Memory Architecture and Data Locality
+- [x] 6. Performance Considerations
 #### Part 2: Parallel Patterns
-- [X] 7. Convolution
-- [X] 8. Stencil
-- [X] 9. Parallel Histogram
-- [X] 10. Reduction and Minimizing Divergence
-- [X] 11. Prefix Sum (Scan)
+- [x] 7. Convolution
+- [x] 8. Stencil
+- [x] 9. Parallel Histogram
+- [x] 10. Reduction and Minimizing Divergence
+- [x] 11. Prefix Sum (Scan)
 #### Part 3: Advanced Patterns and Applications
 - [ ] 12. Merge
 - [ ] 13. Sorting
